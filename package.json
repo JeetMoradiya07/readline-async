@@ -2,30 +2,33 @@
     "name": "readline-store",
     "version": "1.0.0",
     "description": "A simple synchronous-style readline interface for Node.js",
-    "main": "index.js",
-    "type": "module",
-    "scripts": {
-      "test": "node test.js"
-    },
     "keywords": [
-      "readline",
-      "cli",
-      "input",
-      "prompt",
-      "synchronous",
-      "interactive"
+        "readline",
+        "cli",
+        "input",
+        "prompt",
+        "synchronous",
+        "interactive"
     ],
-    "author": "Jeet Moradiya <moradiya.jeet.00@gmail.com>",
-    "license": "MIT",
-    "engines": {
-      "node": ">=12.0.0"
+    "homepage": "https://github.com/JeetMoradiya07/readline-store#readme",
+    "bugs": {
+        "url": "https://github.com/JeetMoradiya07/readline-store/issues"
     },
     "repository": {
-      "type": "git",
-      "url": "https://github.com/JeetMoradiya07/readline-store.git"
+        "type": "git",
+        "url": "git+https://github.com/JeetMoradiya07/readline-store.git"
     },
-    "homepage": "https://github.com/JeetMoradiya07/readline-store#readme",
+    "license": "MIT",
+    "author": "Jeet Moradiya <moradiya.jeet.00@gmail.com>",
+    "type": "module",
+    "main": "index.js",
     "files": [
-      "index.js"
-    ]
-  }
+        "index.js"
+    ],
+    "scripts": {
+        "test": "node test.js"
+    },
+    "engines": {
+        "node": ">=12.0.0"
+    }
+}
