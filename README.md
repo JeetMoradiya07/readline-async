@@ -1,11 +1,11 @@
-# readline-async
+# readline-store
 
 A simple synchronous-style readline interface for Node.js
 
 ## Installation
 
 ```bash
-npm install readline-async
+npm install readline-store
 ```
 
 ## Features
@@ -20,7 +20,7 @@ npm install readline-async
 ### Basic Example
 
 ```javascript
-import rl from 'readline-async';
+import rl from 'readline-store';
 
 async function main() {
     const name = await rl('What is your name? ');
@@ -33,7 +33,7 @@ main();
 ### Multiple Questions
 
 ```javascript
-import rl from 'readline-async';
+import rl from 'readline-store';
 
 async function survey() {
     const name = await rl('Enter your name: ');

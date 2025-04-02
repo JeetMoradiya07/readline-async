@@ -1,5 +1,5 @@
 {
-    "name": "readline-async",
+    "name": "readline-store",
     "version": "1.0.0",
     "description": "A simple synchronous-style readline interface for Node.js",
     "main": "index.js",
@@ -22,9 +22,9 @@
     },
     "repository": {
       "type": "git",
-      "url": "https://github.com/JeetMoradiya07/readline-async.git"
+      "url": "https://github.com/JeetMoradiya07/readline-store.git"
     },
-    "homepage": "https://github.com/JeetMoradiya07/readline-async#readme",
+    "homepage": "https://github.com/JeetMoradiya07/readline-store#readme",
     "files": [
       "index.js"
     ]
